@@ -1,0 +1,3 @@
+/*  style.css  */ 
+h1 { color:blue; } /* 모든 h1 적용 */ 
+#rd { color:red; } /* id=rd에 적용*/ 
