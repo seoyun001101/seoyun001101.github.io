@@ -1,20 +1,18 @@
 <!doctype  html>  <!--   project1.html  --> 
-<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/> 
+<html> 
+<head><meta charset="utf-8"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1"/> 
 <style> 
   header, nav, section, article, aside, footer 
   {border:1px solid gray; margin:5px; padding:8px; width:1000px;} 
-  header h2 { float:left; border:solid 1px gray; margin:0 0 0 0; } 
-  header #headMenu { float:right; border:solid 1px gray; margin:20px 0 0 0; } 
-  header ul {margin:0; padding:0;} 
-  header ul li {display:inline; margin:5px;} 
-  header img { width:990px; height:200px; } 
+  header img { width:1000px; height:200px; } 
   section {width:750px; float:left; } 
   section section {width:725px; float:left; } 
   aside {width:221px; float:left; line-height:30px; } 
   footer {height:50px; clear:both; } 
   nav ul {margin:0; padding:0;} 
   nav ul li {display:inline; margin:5px;} 
-   aside ul {margin:0; padding:0;} 
+  aside ul {margin:0; padding:0;} 
   aside ul li {display:block; margin:5px;} 
   aside ul li img { width:50px; height:50px; } 
   a:link {  color:blue; background-color:transparent; text-decoration:none; } 
@@ -22,30 +20,34 @@
   a:hover {  color:red; background-color:transparent; text-decoration:underline;} 
   a:active {  color:blue; background-color:transparent; text-decoration:none; } 
 </style> 
-<title>포트폴리오 프로젝트</title></head> 
+<title>시멘틱 학습</title></head> 
 <body> 
   <header> 
-    <h2><a href="https://seoyun001101.github.io/project1.html">20191354 장서윤</a></h2> 
-	<ul  id="headMenu"> 
+    <h2>실습을 환영합니다</h2> 
     <img src="scene.png" alt="히말라야"/> 
   </header> 
   <nav> 
     <ul> 
-<a href="http://home.dju.ac.kr/comeng2/html/sub.htm?pgc=1030">수강 과목</div> 
-<a href="https://seoyun001101.github.io/projectList.html">학기말 프로젝트 수행 내역</div> 
-<a href="https://seoyun001101.github.io/projectCard.html">자격증</div> 
-<a href="https://seoyun001101.github.io/projectInout">각종 교내외 경진대회</div> 
-<a href="https://seoyun001101.github.io/projectCap.html">캡스톤</div> 
+    <li><a href="http://www.naver.com" target="_blank">네이버(새윈도우)</a></li> 
+    <li><a href="anchor2.html">사이트내문서이동</a></li> 
+    <li><a href="#chapter1">제1장이동(북마크이동)</a></li></ul> 
   </nav> 
- <section>    <!--   main  --> 
-  <section><a href="anchor2.html"><h3 id="chapter1"></h3></a> 
-   </section>  
-  </section>    <!--   /main  --> 
- <aside> 
+  <section>    <!--   main  --> 
+  <section><h3 id="chapter1">제1장</h3> 
+    <p>제1장 입니다. 제 1장은 다음을 정의합니다.</p> 
+    <p>다음</p> 
+    <a href="http://www.google.com" target="_blank">구글이동(새윈도우)</a><br/> 
+    <a href="anchor2.html">사이트내문서이동</a><br/> 
+    <a href="#chapter3">제3장문서내이동(북마크이동)</a><br/></section> 
+  <aside> 
      <ul> 
-      <li><a href=https://www.google.com><img src="googlePlus.png" alt="인스타그램"/></a></li> 
+      <li><a href=https://www.google.com><img src="googlePlus.png" alt="구글"/></a></li> 
       <li><a href=https://www.facebook.com><img src="facebookOne.png" alt="페이스북"/></a></li> 
+      <li><a href=https://www.twitter.com><img src="twitterYou.png" alt="트위터"/></a></li> 
      </ul> 
-  </aside>   
+  </aside> 
+  <footer> 
+    <p>&copy; 20XX  Made by Korea.  All rights reserved.</p> 
+  </footer>  
 </body> 
 </html> 
