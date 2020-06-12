@@ -35,7 +35,48 @@ footer {height:50px; clear:both; }
   </nav> 
 <section> <!--   main  --> 
 <section>	
-  <div class="inline1 bdcolor"></div> 
+  <div class="inline1 bdcolor">
+	 <script>
+    function  event1onclick() {      document.getElementById("id_1").innerHTML
+     ="전공 선택 : 데이터 모델링<br/>전공 필수 : JAVA 프로그래밍, 수치계산 및 응용, 윈도우 프로그래밍, 알고리즘 및 실습
+<br/>";
+     document.getElementById("id_2").innerHTML="";
+     document.getElementById("id_3").innerHTML="";
+     document.getElementById("id_4").innerHTML="";
+    }
+    function  event2onclick() {      document.getElementById("id_2").innerHTML
+     ="공통 과목 : 운영체제, 소프트웨어 공학, 영상 처리, 데이터베이스 시스템<br/><i>(후렴) 무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";
+     document.getElementById("id_1").innerHTML="";
+     document.getElementById("id_3").innerHTML="";
+     document.getElementById("id_4").innerHTML="";
+    }
+    function  event3onclick() {     document.getElementById("id_3").innerHTML
+     ="공통 과목 : 데이터 베이스 실무 프로젝트, 웹 서버 프로그래밍<br/>컴퓨터 소프트웨어 개발 트랙 : 컴퓨터 그래픽스, 비즈니스 프로세스 관리<br/> 컴퓨터 시스템 및 네트워크 트랙 : 네트워크와 데이터 통신, 컴퓨터 통신 보안<br/>";
+     document.getElementById("id_2").innerHTML="";
+     document.getElementById("id_1").innerHTML="";
+     document.getElementById("id_4").innerHTML="";
+    }
+   function  event4onclick() {     document.getElementById("id_4").innerHTML
+     ="공통 과목 : 캡스톤 디자인1, 시스템 분석 및 설계<br/>컴퓨터 소프트웨어 개발 트랙 : 멀티미디어 시스템, 프로젝트 관리<br/>컴퓨터 시스템 및 네트워크 트랙 : e-비즈니스 설계, 네트워크 프로그래밍
+<br/>"; 
+     document.getElementById("id_2").innerHTML="";
+     document.getElementById("id_3").innerHTML="";
+     document.getElementById("id_1").innerHTML="";
+    } 
+function  event5onclick() {     document.getElementById("id_5").innerHTML
+     ="공통 과목 :  캡스톤 디자인2, 산업체 현장실습<br/>컴퓨터 소프트웨어 개발 트랙 : 인공지능<br/> 컴퓨터 시스템 및 네트워크 트랙 : 컴퓨터 시뮬레이션</br>"; 
+     document.getElementById("id_2").innerHTML="";
+     document.getElementById("id_3").innerHTML="";
+     document.getElementById("id_1").innerHTML="";
+    } 
+  </script>
+	 <ul style="list-style-type:square"> 
+  <li onclick="event1onclick()">1절<br/><p id="id_1"></p></li>
+  <li onclick="event2onclick()">2절<br/><p id="id_2"></p></li>
+  <li onclick="event3onclick()">3절<br/><p id="id_3"></p></li>
+  <li onclick="event4onclick()">4절<br/><p id="id_4"></p></li>
+<li onclick="event5onclick()">4절<br/><p id="id_5"></p></li>
+  </ul></div> 
 </section>	
  </section> <!--   /main  --> 
 	    
